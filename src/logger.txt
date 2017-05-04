@@ -1,0 +1,978 @@
+DEBUG:root:This message should go to the log file
+ERROR:root:Unable to search for:hobby horse (toy)
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['hobby']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:body hygiene kit
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['body']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:crow-stepped gable
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:[]
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:united states house of representatives
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['united states house']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+DEBUG:root:This message should go to the log file
+DEBUG:root:This message should go to the log file
+DEBUG:PIL.PngImagePlugin:STREAM IHDR 16 13
+DEBUG:PIL.PngImagePlugin:STREAM zTXt 41 435
+DEBUG:PIL.PngImagePlugin:STREAM PLTE 488 123
+DEBUG:PIL.PngImagePlugin:STREAM IDAT 623 4963
+DEBUG:PIL.PngImagePlugin:STREAM IHDR 16 13
+DEBUG:PIL.PngImagePlugin:STREAM zTXt 41 435
+DEBUG:PIL.PngImagePlugin:STREAM PLTE 488 123
+DEBUG:PIL.PngImagePlugin:STREAM IDAT 623 4963
+DEBUG:root:This message should go to the log file
+DEBUG:PIL.PngImagePlugin:STREAM IHDR 16 13
+DEBUG:PIL.PngImagePlugin:STREAM gAMA 41 4
+DEBUG:PIL.PngImagePlugin:STREAM sRGB 57 1
+DEBUG:PIL.PngImagePlugin:sRGB 57 1 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM PLTE 70 66
+DEBUG:PIL.PngImagePlugin:STREAM IDAT 148 8192
+DEBUG:PIL.PngImagePlugin:STREAM IHDR 16 13
+DEBUG:PIL.PngImagePlugin:STREAM gAMA 41 4
+DEBUG:PIL.PngImagePlugin:STREAM sRGB 57 1
+DEBUG:PIL.PngImagePlugin:sRGB 57 1 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM PLTE 70 66
+DEBUG:PIL.PngImagePlugin:STREAM IDAT 148 8192
+DEBUG:PIL.PngImagePlugin:STREAM IHDR 16 13
+DEBUG:PIL.PngImagePlugin:STREAM gAMA 41 4
+DEBUG:PIL.PngImagePlugin:STREAM sRGB 57 1
+DEBUG:PIL.PngImagePlugin:sRGB 57 1 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM PLTE 70 66
+DEBUG:PIL.PngImagePlugin:STREAM IDAT 148 8192
+DEBUG:PIL.PngImagePlugin:STREAM IHDR 16 13
+DEBUG:PIL.PngImagePlugin:STREAM gAMA 41 4
+DEBUG:PIL.PngImagePlugin:STREAM sRGB 57 1
+DEBUG:PIL.PngImagePlugin:sRGB 57 1 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM PLTE 70 66
+DEBUG:PIL.PngImagePlugin:STREAM IDAT 148 8192
+DEBUG:root:This message should go to the log file
+DEBUG:root:This message should go to the log file
+DEBUG:root:This message should go to the log file
+DEBUG:root:This message should go to the log file
+DEBUG:root:This message should go to the log file
+ERROR:root:Unable to search for:hobby horse (toy)
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['hobby']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:body hygiene kit
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['body']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:crow-stepped gable
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:[]
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:united states house of representatives
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['united states house']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+DEBUG:root:This message should go to the log file
+ERROR:root:Unable to search for:hobby horse (toy)
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['hobby']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:body hygiene kit
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['body']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:crow-stepped gable
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:[]
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:united states house of representatives
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['united states house']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+DEBUG:root:This message should go to the log file
+ERROR:root:Unable to search for:hobby horse (toy)
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['hobby']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:body hygiene kit
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['body']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:crow-stepped gable
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:[]
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:united states house of representatives
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['united states house']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+DEBUG:root:This message should go to the log file
+ERROR:root:Unable to search for:hobby horse (toy)
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['hobby']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:body hygiene kit
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['body']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:crow-stepped gable
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:[]
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:united states house of representatives
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['united states house']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+DEBUG:root:This message should go to the log file
+ERROR:root:Unable to search for:hobby horse (toy)
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['hobby']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:body hygiene kit
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['body']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:crow-stepped gable
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:[]
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+DEBUG:root:This message should go to the log file
+ERROR:root:Unable to search for:hobby horse (toy)
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['hobby']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:body hygiene kit
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:['body']
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:crow-stepped gable
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+DEBUG:root:This message should go to the log file
+ERROR:root:Unable to search for:hobby horse (toy)
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+DEBUG:root:This message should go to the log file
+ERROR:root:Unable to search for:hobby horse (toy)
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:body hygiene kit
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:crow-stepped gable
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:united states house of representatives
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:united states house
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+DEBUG:root:This message should go to the log file
+ERROR:root:Unable to search for:hobby horse (toy)
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:body hygiene kit
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:crow-stepped gable
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:united states house of representatives
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:united states house
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+DEBUG:root:This message should go to the log file
+ERROR:root:Unable to search for:hobby horse (toy)
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+DEBUG:root:This message should go to the log file
+ERROR:root:Unable to search for:hobby horse (toy)
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:body hygiene kit
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:crow-stepped gable
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:united states house of representatives
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:united states house
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 180, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+DEBUG:root:This message should go to the log file
+ERROR:root:Unable to search for:hobby horse (toy)
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 182, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:body hygiene kit
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 182, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:crow-stepped gable
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 182, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:united states house of representatives
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 182, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:united states house
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 182, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+DEBUG:root:This message should go to the log file
+ERROR:root:Unable to search for:hobby horse (toy)
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 182, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:body hygiene kit
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 182, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:crow-stepped gable
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 182, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:united states house of representatives
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 182, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:united states house
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 182, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 230, in _mech_open
+    response = UserAgentBase.open(self, request, data)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_opener.py", line 193, in open
+    response = urlopen(self, req, data)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_urllib2_fork.py", line 344, in _open
+    '_open', req)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_urllib2_fork.py", line 332, in _call_chain
+    result = func(*args)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_urllib2_fork.py", line 1142, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_urllib2_fork.py", line 1118, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 111] Connection refused>
+DEBUG:root:This message should go to the log file
+ERROR:root:Unable to search for:hobby horse (toy)
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 182, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:body hygiene kit
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 182, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:crow-stepped gable
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 182, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:united states house of representatives
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 182, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+ERROR:root:Unable to search for:united states house
+Traceback (most recent call last):
+  File "form_fill_and_Extract.py", line 182, in fill_form
+    response = br.submit()
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 541, in submit
+    return self.open(self.click(*args, **kwds))
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 203, in open
+    return self._mech_open(url, data, timeout=timeout)
+  File "/home/avijit/anaconda2/lib/python2.7/site-packages/mechanize/_mechanize.py", line 255, in _mech_open
+    raise response
+httperror_seek_wrapper: HTTP Error 404: Not Found
+DEBUG:root:This message should go to the log file
