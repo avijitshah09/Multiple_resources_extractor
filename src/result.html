@@ -1,1185 +1,159 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:product="http://ogp.me/ns/product#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
-  <head>
-<script>
-var current_date = 2017-05-04;
-var current_year = 2017;
-var current_day = 04;
-var current_month = 05;
-</script>
-    <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
-<script>                var sbGlideScriptElement = document.createElement("script");
-            	sbGlideScriptElement.type = "text/javascript";
-            	sbGlideScriptElement.onload = function() {
-            	    var glideUnit = typeof SbSlidingUnit == 'undefined' ? parent.SbSlidingUnit : SbSlidingUnit;
-            	    glideUnit.init({
-            	        partnerId : 4175,
-            	        widgetId : 'info003',
-            	        cmsPath : '//cms.springboardplatform.com'
-            	    });
-            	};
-            	sbGlideScriptElement.src = "//www.springboardplatform.com/storage/js/sliding/sliding_unit.js";
-            	if (top === self)
-            		document.getElementsByTagName('head')[0].appendChild(sbGlideScriptElement);
-            	else
-            		parent.document.getElementsByTagName('head')[0].appendChild(sbGlideScriptElement);</script>
-<script>                var zflag_nid="305", 
-                     zflag_cid="48112/41562/1", 
-                     zflag_sid="4677", 
-                     zflag_width="1", 
-                     zflag_height="1", 
-                     zflag_sz="15";</script>
-<script src="//ss3.zedo.com/jsc/ss3/fo.js"></script>
-<script>var googletag = googletag || {};
-googletag.cmd = googletag.cmd || [];
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>apple tree - Search results - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Search","wgNamespaceNumber":-1,"wgPageName":"Special:Search","wgTitle":"Search","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Special:Search","wgRelevantArticleId":0,"wgRequestId":"WQtsiwpAMFUAAAHzrjQAAAAQ","wgIsProbablyEditable":false,"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","searchTerm":"apple tree","wgCirrusSearchRequestSetToken":"3kd0xvl0rvp02qx9704dwbxpi","wgIsSearchResultPage":true,"wgCirrusTookMs":91,"wgCirrusElasticTime":-1,"wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.helplink":"ready","mediawiki.special":"ready","mediawiki.special.search.styles":"ready","mediawiki.ui":"ready","mediawiki.ui.button":"ready","mediawiki.ui.input":"ready","mediawiki.widgets.SearchInputWidget.styles":"ready","oojs-ui-core.styles":"ready","oojs-ui.styles.icons":"ready","oojs-ui.styles.indicators":"ready","oojs-ui.styles.textures":"ready","mediawiki.widgets.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","ext.tmh.thumbnail.styles":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
 
-(function() {
-  var gads = document.createElement('script');
-  gads.async = true;
-  gads.type = 'text/javascript';
-  var useSSL = 'https:' == document.location.protocol;
-  gads.src = (useSSL ? 'https:' : 'http:') +
-    '//www.googletagservices.com/tag/js/gpt.js';
-  var node = document.getElementsByTagName('script')[0];
-  node.parentNode.insertBefore(gads, node);
-})();
+});mw.loader.load(["mediawiki.special.search","ext.cirrus.serp","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.helplink%2CsectionAnchor%2Cspecial%2Cui%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.special.search.styles%7Cmediawiki.ui.button%2Cinput%7Cmediawiki.widgets.SearchInputWidget.styles%7Cmediawiki.widgets.styles%7Coojs-ui-core.styles%7Coojs-ui.styles.icons%2Cindicators%2Ctextures%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.29.0-wmf.21"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="canonical" href="https://en.wikipedia.org/w/index.php?search=apple+tree&amp;title=Special%3ASearch&amp;profile=default&amp;fulltext=1"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns--1 ns-special mw-special-Search page-Special_Search rootpage-Special_Search skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
 
-var leaderboard_mapping;
-googletag.cmd.push(function() {
-  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
-    || (window.screen.width == "1080" && window.screen.height == "1920")
-    || (window.screen.width == "1242" && window.screen.height == "2148")) {
-    /* For mobile device. */
-    leaderboard_mapping = googletag.sizeMapping().addSize([0, 0], [320, 50]).build();
-  } else {
-    /* For desktop browsers. */
-    leaderboard_mapping = googletag.sizeMapping().
-    addSize([1280, 800], [728, 90]).
-    addSize([600, 800], [320, 50]).
-    addSize([800, 600], [728, 90]).
-    addSize([0, 0], [728, 90]).
-    build();
-  }
-  googletag.defineSlot('/718/IP/leaderboard', [[728, 90], [970, 90], [970, 250]], 'div-gpt-ad-1481557922382-0').defineSizeMapping(leaderboard_mapping).addService(googletag.pubads());
-  googletag.defineSlot('/718/IP/abovethefoldMPU', [[300, 600], [300, 250]], 'div-gpt-ad-1481558045667-0').addService(googletag.pubads());
-  googletag.defineSlot('/718/IP/middlepagetower', [[300, 600], [160, 600]], 'div-gpt-ad-1481558147970-0').addService(googletag.pubads());
-  googletag.defineSlot('/718/IP/thirdright', [[300,600],[300,250]], 'div-gpt-ad-1489606341717-0').addService(googletag.pubads());
-  googletag.defineSlot('/718/IP/fourthright', [[300,600],[300,250]], 'div-gpt-ad-1489606431392-0').addService(googletag.pubads());
-  googletag.defineOutOfPageSlot('/718/IP/outofpage', 'div-gpt-ad-1481558598915-0').addService(googletag.pubads());
-  googletag.pubads().enableSingleRequest();
-  googletag.pubads().collapseEmptyDivs();
-  googletag.pubads().setTargeting("site", document.location.hostname);
-  googletag.pubads().setTargeting("infoplease", "IP");
-  googletag.enableServices();
-});
-</script>
-<script src="//i.infopls.com/js/flashobject.js"></script>
-<meta name="title" content="Search Results: apple tree | Infoplease" />
-<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
-<meta name="MobileOptimized" content="width" />
-<meta name="HandheldFriendly" content="true" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="shortcut icon" href="/themes/ip/favicon.ico" type="image/vnd.microsoft.icon" />
-<link rel="canonical" href="https://www.infoplease.com/search/apple tree" />
-
-    <title>Search Results: apple tree | Infoplease</title>
-    <link rel="stylesheet" href="/sites/infoplease.com/files/css/css_7NbsmTcp9YicdSRVaJTdPzTofty1BESp2M5SKb030HU.css?opbca7" media="all" />
-<link rel="stylesheet" href="/sites/infoplease.com/files/css/css_GMi0wLhKgsUHOjvFHE50vPEF489H0_Mkqr1SiygToSM.css?opbca7" media="all" />
-
-    
-<!--[if lte IE 8]>
-<script src="/sites/infoplease.com/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
-<![endif]-->
-
-  </head>
-  <body  class="user-logged-out path-search head-title-Search-Results:-apple-tree---Infoplease">
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NBS6K3" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&l='+l:'';j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;j.type='text/javascript';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NBS6K3');</script>
-<!-- End Google Tag Manager -->
-    
-    <div class="container }">
-<header class="row">
-        <div id="block-ipleaderboardad" class="block">
-  
-    
-         
-            <div class="body"><!-- /718/IP/leaderboard -->
-<div id="div-gpt-ad-1481557922382-0">
-	<script type="text/javascript">
-<!--//--><![CDATA[// ><!--
-
-			googletag.cmd.push(function() {googletag.display('div-gpt-ad-1481557922382-0');});		
-	
-//--><!]]>
-</script></div></div>
-      
-  </div>
-            <div class="col-sm-3 col-xs-6">
-            <a href="/" title="Home" rel="home">
-                <img src="/themes/ip/logo.svg" alt="Home" />
-            </a>
-        </div>
-    <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu-navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-    </button>
-</div>  
-<div id="block-topheader" class="col-md-6 col-sm-12">
-  
-    
-         
-            <div class="body"><ul class="list-inline"><li><a class="icon-atlas" href="/atlas">Atlas</a></li>
-	<li><a class="icon-encyclopedia" href="/encyclopedia">Encyclopedia</a></li>
-	<li><a class="icon-dict" href="/dictionary">Dictionary</a></li>
-	<li><a class="icon-tr" href="/thesaurus">Thesaurus</a></li>
-	<li><a class="icon-hist" href="/dayinhistory">Day in History</a></li>
-</ul></div>
-      
-  </div>
-<div class="wizenoze-page-block-form block" data-drupal-selector="wizenoze-page-block-form" id="block-wizenozesearchblockform">
-  
-    
-      <form action="/search/apple%20tree" method="post" id="wizenoze-page-block-form" accept-charset="UTF-8">
-  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
-      <label for="edit-keys" class="visually-hidden">Search</label>
-        <input title="Enter the terms you wish to search for." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="apple tree" size="15" maxlength="128" class="form-search" />
-
-        </div>
-<input data-drupal-selector="form-auesvl0u9iozqa5l-z-anhyui-ku6alpjoss64mmeaa" type="hidden" name="form_build_id" value="form-AUEsVL0U9IOZQA5l_z-ANHYUI-kU6AlpjoSS64mMeaA" />
-<input data-drupal-selector="edit-wizenoze-page-block-form" type="hidden" name="form_id" value="wizenoze_page_block_form" />
-<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--3"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit--3" name="op" value="Search" class="button js-form-submit form-submit" />
+							<div id="siteNotice" class="mw-body-content"><!-- CentralNotice --></div>
+						<div class="mw-indicators mw-body-content">
+<div id="mw-indicator-mw-helplink" class="mw-indicator"><a href="/wiki/Help:Searching" target="_blank" class="mw-helplink">Help</a></div>
 </div>
-
-</form>
-
-  </div>
-
-
-</header>
-        <nav role="navigation" aria-labelledby="block-mainnavigation-menu-" id="block-mainnavigation">
-    <div class="collapse navbar-collapse navbar" id="main-menu-navbar-collapse">
-            
-
-              <ul class="nav navbar-nav">
-                              <li>
-                           
-        <a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
-              </li>
-                          <li>
-                           
-        <a href="/top-ten-archive" data-drupal-link-system-path="node/163033">Top 10s</a>
-              </li>
-                          <li>
-                           
-        <a href="/timeline-archive" data-drupal-link-system-path="node/80863">Timelines</a>
-              </li>
-                                              <li class="dropdown">
-                                             
-        <a href="/world" class="dropdown-toggle drop-down-icon" data-drupal-link-system-path="node/80861">World</a>
-                                <ul class="dropdown-menu">
-                              <li>
-                           
-        <a href="/atlas/world-atlas-map-library" data-drupal-link-system-path="node/407004">Atlas</a>
-              </li>
-                          <li>
-                           
-        <a href="/countries" data-drupal-link-system-path="countries">Countries</a>
-              </li>
-                          <li>
-                           
-        <a href="/world/current-events-world-us-science-and-business-news" data-drupal-link-system-path="node/81063">News</a>
-              </li>
-                          <li>
-                           
-        <a href="/world-history-and-timelines" data-drupal-link-system-path="node/167236">History</a>
-              </li>
-                          <li>
-                           
-        <a href="/world/geography-maps-country-information-distance-calculator" data-drupal-link-system-path="node/81060">Geography</a>
-              </li>
-                          <li>
-                           
-        <a href="/world/structures-and-buildings" data-drupal-link-system-path="node/81058">Structures &amp; Buildings</a>
-              </li>
-                          <li>
-                           
-        <a href="/people/world-leaders-country-or-region" data-drupal-link-system-path="node/145952">World Rulers</a>
-              </li>
-                          <li>
-                           
-        <a href="/world/disasters-hurricanes-earthquakes-terrorist-attacks-more" data-drupal-link-system-path="node/81059">Disasters</a>
-              </li>
-                          <li>
-                           
-        <a href="/world/flags-around-world" data-drupal-link-system-path="node/81065">Flags of the World</a>
-              </li>
-                          <li>
-                           
-        <a href="/world/world-statistics" data-drupal-link-system-path="node/81061">Statistics</a>
-              </li>
-                          <li>
-                           
-        <a href="/world/international-relations" data-drupal-link-system-path="node/81064">International Relations</a>
-              </li>
-                          <li>
-                           
-        <a href="/world/travel-transportation" data-drupal-link-system-path="node/81062">Travel</a>
-              </li>
-                          <li>
-                           
-        <a href="/us/religion" data-drupal-link-system-path="node/81046">Religion</a>
-              </li>
-        </ul>
-  
-              </li>
-                                              <li class="dropdown">
-                                             
-        <a href="/united-states" class="dropdown-toggle drop-down-icon" data-drupal-link-system-path="node/81072">U.S.</a>
-                                <ul class="dropdown-menu">
-                              <li>
-                           
-        <a href="/us/us-states-maps-stats" data-drupal-link-system-path="node/80737">Fifty States</a>
-              </li>
-                          <li>
-                           
-        <a href="/us/us-cities" data-drupal-link-system-path="node/81055">Cities</a>
-              </li>
-                          <li>
-                           
-        <a href="/world/current-events-world-us-science-and-business-news" data-drupal-link-system-path="node/81063">News</a>
-              </li>
-                          <li>
-                           
-        <a href="/us-history" data-drupal-link-system-path="node/80860">History</a>
-              </li>
-                          <li>
-                           
-        <a href="/world/geography-maps-country-information-distance-calculator" data-drupal-link-system-path="node/81060">Geography</a>
-              </li>
-                          <li>
-                           
-        <a href="/world/structures-and-buildings" data-drupal-link-system-path="node/81058">Buildings &amp; Structures</a>
-              </li>
-                          <li>
-                           
-        <a href="/world/disasters-hurricanes-earthquakes-terrorist-attacks-more" data-drupal-link-system-path="node/81059">Disasters</a>
-              </li>
-                          <li>
-                           
-        <a href="/us/us-statistics" data-drupal-link-system-path="node/81054">Statistics</a>
-              </li>
-                          <li>
-                           
-        <a href="/us/military-affairs" data-drupal-link-system-path="node/81052">Military</a>
-              </li>
-                          <li>
-                           
-        <a href="/us/gender-sexuality" data-drupal-link-system-path="node/81047">Gender Issues</a>
-              </li>
-                          <li>
-                           
-        <a href="/us/race-population" data-drupal-link-system-path="node/81051">Race &amp; Ethnicity</a>
-              </li>
-                          <li>
-                           
-        <a href="/postal-regulations" data-drupal-link-system-path="node/80856">Postal Information</a>
-              </li>
-                          <li>
-                           
-        <a href="/entertainment" data-drupal-link-system-path="node/167375">Arts &amp; Entertainment</a>
-              </li>
-                          <li>
-                           
-        <a href="/sports" data-drupal-link-system-path="node/81067">Sports</a>
-              </li>
-        </ul>
-  
-              </li>
-                                              <li class="dropdown">
-                                             
-        <a href="/people" class="dropdown-toggle drop-down-icon" data-drupal-link-system-path="node/81449">People</a>
-                                <ul class="dropdown-menu">
-                              <li>
-                           
-        <a href="/academia-and-culture" data-drupal-link-system-path="node/81448">Academia &amp; Culture</a>
-              </li>
-                          <li>
-                           
-        <a href="/art-and-entertainment" data-drupal-link-system-path="node/81447">Arts &amp; Entertainment</a>
-              </li>
-                          <li>
-                           
-        <a href="/business-0" data-drupal-link-system-path="node/81446">Business</a>
-              </li>
-                          <li>
-                           
-        <a href="/government" data-drupal-link-system-path="node/81445">Government</a>
-              </li>
-                          <li>
-                           
-        <a href="/newsmakers" data-drupal-link-system-path="node/81444">Newsmakers</a>
-              </li>
-                          <li>
-                           
-        <a href="/science" data-drupal-link-system-path="node/81443">Science</a>
-              </li>
-                          <li>
-                           
-        <a href="/sports-1" data-drupal-link-system-path="node/81442">Sports</a>
-              </li>
-        </ul>
-  
-              </li>
-                                              <li class="dropdown">
-                                             
-        <a href="/history-and-government" class="dropdown-toggle drop-down-icon" data-drupal-link-system-path="node/81069">History &amp; Gov&#039;t</a>
-                                <ul class="dropdown-menu">
-                              <li>
-                           
-        <a href="/world-history-and-timelines" data-drupal-link-system-path="node/167236">World History</a>
-              </li>
-                          <li>
-                           
-        <a href="/us-history" data-drupal-link-system-path="node/80860">U.S. History</a>
-              </li>
-                          <li>
-                           
-        <a href="/timeline-archive" data-drupal-link-system-path="node/80863">Timelines</a>
-              </li>
-                          <li>
-                           
-        <a href="/us-presidents" data-drupal-link-system-path="node/80854">U.S. Presidents</a>
-              </li>
-                          <li>
-                           
-        <a href="/us-government-0" data-drupal-link-system-path="node/166986">U.S. Government</a>
-              </li>
-                          <li>
-                           
-        <a href="/us-elections" data-drupal-link-system-path="node/81450">U.S. Elections</a>
-              </li>
-                          <li>
-                           
-        <a href="/ipa/A0873869.html">U.S. Supreme Court</a>
-              </li>
-                          <li>
-                           
-        <a href="/history-and-government/us-historical-monuments" data-drupal-link-system-path="node/155845">U.S. Monuments &amp; Landmarks</a>
-              </li>
-                          <li>
-                           
-        <a href="/us-documents" data-drupal-link-system-path="node/81453">U.S. Documents</a>
-              </li>
-        </ul>
-  
-              </li>
-                                              <li class="dropdown">
-                                             
-        <a href="/science-health/health-and-science" class="dropdown-toggle drop-down-icon" data-drupal-link-system-path="node/81068">Science &amp; Health</a>
-                                <ul class="dropdown-menu">
-                              <li>
-                           
-        <a href="/science-health/astronomy" data-drupal-link-system-path="node/81036">Astronomy &amp; Space</a>
-              </li>
-                          <li>
-                           
-        <a href="/science-health/aviation" data-drupal-link-system-path="node/81037">Aviation</a>
-              </li>
-                          <li>
-                           
-        <a href="/science-health/environment-and-nature" data-drupal-link-system-path="node/81026">Environment &amp; Energy</a>
-              </li>
-                          <li>
-                           
-        <a href="/health-nutrition-0" data-drupal-link-system-path="node/80851">Health</a>
-              </li>
-                          <li>
-                           
-        <a href="/science-health/inventions-and-discoveries" data-drupal-link-system-path="node/80594">Inventions</a>
-              </li>
-                          <li>
-                           
-        <a href="/science-health/life-science" data-drupal-link-system-path="node/80585">Life Science</a>
-              </li>
-                          <li>
-                           
-        <a href="/science-health/physical-science" data-drupal-link-system-path="node/80586">Physical Science</a>
-              </li>
-                          <li>
-                           
-        <a href="/science-health/computers-internet-and-technology" data-drupal-link-system-path="node/81027">Technology</a>
-              </li>
-                          <li>
-                           
-        <a href="/science-health/weather" data-drupal-link-system-path="node/80593">Weather</a>
-              </li>
-                          <li>
-                           
-        <a href="/science-health/weights-measures" data-drupal-link-system-path="node/81034">Weights &amp; Measures</a>
-              </li>
-        </ul>
-  
-              </li>
-                                              <li class="dropdown">
-                                             
-        <a href="/calendar-and-holidays" class="dropdown-toggle drop-down-icon" data-drupal-link-system-path="node/80862">Calendar &amp; Holidays</a>
-                                <ul class="dropdown-menu">
-                              <li>
-                           
-        <a href="/calendar-holidays/calendars" data-drupal-link-system-path="node/80540">Calendars</a>
-              </li>
-                          <li>
-                           
-        <a href="/calendar-holidays/seasons-months-days" data-drupal-link-system-path="node/80541">Seasons, Months, Days</a>
-              </li>
-                          <li>
-                           
-        <a href="/feature-archive" data-drupal-link-system-path="node/81070">Holiday Features</a>
-              </li>
-                          <li>
-                           
-        <a href="/calendar-holidays/major-holidays" data-drupal-link-system-path="node/80542">Holidays</a>
-              </li>
-        </ul>
-  
-              </li>
-                                              <li class="dropdown">
-                                             
-        <a href="/business-and-finance" class="dropdown-toggle drop-down-icon" data-drupal-link-system-path="node/167357">Business</a>
-                                <ul class="dropdown-menu">
-                              <li>
-                           
-        <a href="/business-finance/business" title="Business" data-drupal-link-system-path="node/81013">Business</a>
-              </li>
-                          <li>
-                           
-        <a href="/business-finance/consumer-resources" title="Consumer Resources" data-drupal-link-system-path="node/81011">Consumer Resources</a>
-              </li>
-                          <li>
-                           
-        <a href="/business-finance/economy" title="Economy" data-drupal-link-system-path="node/81014">Economy</a>
-              </li>
-                          <li>
-                           
-        <a href="/business-finance/labor-and-employment" data-drupal-link-system-path="node/80530">Employment &amp; Labor</a>
-              </li>
-                          <li>
-                           
-        <a href="/business-finance/personal-finance" title="Personal Finance" data-drupal-link-system-path="node/81015">Personal Finance</a>
-              </li>
-                          <li>
-                           
-        <a href="/business-finance/poverty-and-income" title="Poverty &amp; Income" data-drupal-link-system-path="node/80531">Poverty &amp; Income</a>
-              </li>
-                          <li>
-                           
-        <a href="/business-finance/taxes" title="Taxes" data-drupal-link-system-path="node/81012">Taxes</a>
-              </li>
-        </ul>
-  
-              </li>
-                          <li>
-                           
-        <a href="/us/us-states-maps-stats" data-drupal-link-system-path="node/80737">The Fifty States</a>
-              </li>
-        </ul>
-  
-
-
-        </div>
-</nav>
-
-
-
-
-<main class="row">
-                    <article  class="col-sm-8">
-                                <div id="block-ip-breadcrumbs" class="block">
-  
-    
-        <nav role="navigation" aria-labelledby="system-breadcrumb">
-    <h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
-    <ol class="breadcrumb-navigation">
-              <li>
-                          <a href="/">Home</a> &gt;              </li>
-                <li>
-                          <a href="/search">Search Results: </a>               </li>
-              </ol>
-  </nav>
-
-  </div>
-
-
-                                        <div id="block-citing" class="block">
-  
-    
-         
-            <div class="body"><div class="addthis_toolbox addthis_default_style" style="float:right;width:auto;height:auto;margin:0 6px 0 0;padding:0;border:1px solid #fff;background-color:#fff;">
-
-<a href="/citing.html"><img src="//i.infopls.com/images/IPcite.gif" style="vertical-align:middle;" data-pin-nopin="true" />Cite</a>
-<div class="atclear"></div></div></div>
-      
-  </div>
-<div id="block-ip-page-title" class="block">
-  
-    
-      
-  <h1>Search Results: apple tree</h1>
-
-
-  </div>
-
-
-                        
-            
-            <section class = "main-section col-sm-12">
-                    <div id="block-ip-content" class="block">
-  
-    
-      
-
-
-  <p>3634 results found</p>
-
-
-
-
-
-
-<h3>
-  <a href="https://www.infoplease.com/dictionary/apple-tree-borer">apple tree borer: meaning and definitions</a>
-</h3>
-<p>Also calledflatheaded apple tree</p>
-
-
-<h3>
-  <a href="https://www.infoplease.com/dictionary/apple-blossom">apple blossom: meaning and definitions</a>
-</h3>
-<p>the flower of the apple tree: the state flower of Arkansas and Michigan.</p>
-
-
-<h3>
-  <a href="https://www.infoplease.com/homework-help/poetry-and-poets/christina-rossetti-apple-gathering">Christina Rossetti: An Apple Gathering</a>
-</h3>
-<p>An Apple GatheringI plucked pink blossoms from mine apple ... I counted rosiest apples on the earth Of far less worth than love.</p>
-
-
-<h3>
-  <a href="https://www.infoplease.com/dictionary/roundheaded-apple-tree-borer">roundheaded apple tree borer: meaning and definitions</a>
-</h3>
-<p>Seeapple tree borer(def. 2).</p>
-
-
-<h3>
-  <a href="https://www.infoplease.com/dictionary/flatheaded-apple-tree-borer">flatheaded apple tree borer: meaning and definitions</a>
-</h3>
-<p>Seeapple tree borer(def. 1).</p>
-
-
-<h3>
-  <a href="https://www.infoplease.com/aesops-fables-290">Aesop&#039;s Fables</a>
-</h3>
-<p>Chapter 102 Chapter 104 The Pomegranate, the Apple-Tree, and the Bramble A Pomegranate and an Apple-tree were disputing about the quality of their fruits, and each claimed that its own was the better of the two.</p>
-
-
-<h3>
-  <a href="https://www.infoplease.com/aesops-fables-4">Aesop&#039;s Fables</a>
-</h3>
-<p>by Aesop Hercules and the WaggonerThe Lion, the Bear, and the FoxThe Pomegranate, the Apple-Tree, and the Bramble A Pomegranate and an Apple-tree were disputing about the quality of their fruits, and each claimed that its own was the better</p>
-
-
-<h3>
-  <a href="https://www.infoplease.com/aesops-fables-249">Aesop&#039;s Fables</a>
-</h3>
-<p>by Aesop The Boy and the NettlesThe Jackdaw and the PigeonsThe Peasant and the Apple-Tree A Peasant had an Apple-tree growing in his garden, which bore no fruit, but merely served to provide a shelter from the heat for ... Delighted with his find he threw down his axe, saying, "The old tree is worth keeping after all." - Utility is most men&#x27;s test of worth.</p>
-
-
-<h3>
-  <a href="https://www.infoplease.com/aesops-fables-535">Aesop&#039;s Fables</a>
-</h3>
-<p>Chapter 68 Chapter 70 The Peasant and the Apple-Tree A Peasant had an Apple-tree growing in his garden, which bore no fruit, but merely served to provide a shelter from the heat for ... Delighted with his find he threw down his axe, saying, "The old tree is worth keeping after all." - Utility is most men&#x27;s test of worth.</p>
-
-
-<h3>
-  <a href="https://www.infoplease.com/encyclopedia/plants-and-animals/animals/zoology-invertebrates/borer">borer</a>
-</h3>
-<p>., the flatheaded apple-tree borer, a serious pest of many shade and fruit trees the roundheaded apple-tree borer and the bronze birch, locust, elm, shot-hole, and poplar borers.
-</p>
-
-
-<h3>
-  <a href="https://www.infoplease.com/encyclopedia/plants-and-animals/plants/plants/apple">apple</a>
-</h3>
-<p>le, any tree (and its fruit) of the genus Malus of the family Rosaceae ( rose family). ... The small, hard, sour crab-apple fruits are used for preserves, pickles, and jelly in growth and culture these trees are similar to the common apple.
-</p>
-
-
-<h3>
-  <a href="https://www.infoplease.com/dictionary/scrog">scrog: meaning and definitions</a>
-</h3>
-<p>any naturally short or stunted tree or bush, as a crab apple tree or blackthorn bush.scrogs,underbrush; brushwood.</p>
-
-
-<h3>
-  <a href="https://www.infoplease.com/dictionary/fructed">fructed: meaning and definitions</a>
-</h3>
-<p>(of a tree or other plant) represented as bearing fruit, seeds, or the like:an apple tree vert fructed gules.</p>
-
-
-<h3>
-  <a href="https://www.infoplease.com/dictionary/apple">apple: meaning and definitions</a>
-</h3>
-<p>the usually round, red or yellow, edible fruit of a small tree, Malus sylvestris, of the rose family.the tree</p>
-
-
-<h3>
-  <a href="https://www.infoplease.com/arts-entertainment/home-video-library/heaven-knows-mr-allison-1957">Heaven Knows, Mr. Allison (1957)</a>
-</h3>
-<p>Mitch even warbles a tune &mdash; &#8220;Don&#x27;t Sit Under the Apple Tree&#8221; in this sparkingly romantic, well-acted saga, available on video for the first time.</p>
-
-
-
-  <nav class="pager" role="navigation" aria-labelledby="pagination-heading">
-    <h4 id="pagination-heading" class="visually-hidden">Pagination</h4>
-    <ul class="pager__items js-pager__items">
-                                                        <li class="pager__item is-active">
-                                          <a href="https://www.infoplease.com/search/apple tree" title="Current page">
-            <span class="visually-hidden">
-              Current page
-            </span>1</a>
-        </li>
-              <li class="pager__item">
-                                          <a href="?page=1" title="Go to page 2">
-            <span class="visually-hidden">
-              Page
-            </span>2</a>
-        </li>
-              <li class="pager__item">
-                                          <a href="?page=2" title="Go to page 3">
-            <span class="visually-hidden">
-              Page
-            </span>3</a>
-        </li>
-              <li class="pager__item">
-                                          <a href="?page=3" title="Go to page 4">
-            <span class="visually-hidden">
-              Page
-            </span>4</a>
-        </li>
-              <li class="pager__item">
-                                          <a href="?page=4" title="Go to page 5">
-            <span class="visually-hidden">
-              Page
-            </span>5</a>
-        </li>
-              <li class="pager__item">
-                                          <a href="?page=5" title="Go to page 6">
-            <span class="visually-hidden">
-              Page
-            </span>6</a>
-        </li>
-              <li class="pager__item">
-                                          <a href="?page=6" title="Go to page 7">
-            <span class="visually-hidden">
-              Page
-            </span>7</a>
-        </li>
-              <li class="pager__item">
-                                          <a href="?page=7" title="Go to page 8">
-            <span class="visually-hidden">
-              Page
-            </span>8</a>
-        </li>
-              <li class="pager__item">
-                                          <a href="?page=8" title="Go to page 9">
-            <span class="visually-hidden">
-              Page
-            </span>9</a>
-        </li>
-                          <li class="pager__item pager__item--ellipsis" role="presentation">&hellip;</li>
-                          <li class="pager__item pager__item--next">
-          <a href="?page=1" title="Go to next page" rel="next">
-            <span class="visually-hidden">Next page</span>
-            <span aria-hidden="true">Next ›</span>
-          </a>
-        </li>
-                          <li class="pager__item pager__item--last">
-          <a href="?page=99" title="Go to last page">
-            <span class="visually-hidden">Last page</span>
-            <span aria-hidden="true">Last »</span>
-          </a>
-        </li>
-          </ul>
-  </nav>
-
-
-  </div>
-
-
-            </section>
-                                                 <section class="locker-dom">
-                     <div id="block-lockerdomeblock" class="block">
-  
-    
-         
-            <div class="body"><div id="ld-2559-4525"> </div>
-<script>
-<!--//--><![CDATA[// ><!--
-(function(w,d,s,i){w.ldAdInit=w.ldAdInit||[];w.ldAdInit.push({slot:8440289106995559,size:[0, 0],id:"ld-2559-4525"});if(!d.getElementById(i)){var j=d.createElement(s),p=d.getElementsByTagName(s)[0];j.async=true;j.src="//cdn2.lockerdome.com/_js/ajs.js";j.id=i;p.parentNode.insertBefore(j,p);}})(window,document,"script","ld-ajs");
-//--><!]]>
-</script></div>
-      
-  </div>
-
-
-             </section>
-                     </article>
-                <aside class="col-sm-4">
-        <div class="right-section ">
-                <div id="block-ipabovethefold" class="block">
-  
-    
-         
-            <div class="body"><!-- /718/IP/abovethefoldMPU -->
-<div id="div-gpt-ad-1481558045667-0">
-  <script>
-<!--//--><![CDATA[// ><!--
-
-     googletag.cmd.push(function() { googletag.display('div-gpt-ad-1481558045667-0'); });
-  
-//--><!]]>
-</script></div></div>
-      
-  </div>
-<div id="block-sidebarvideoplayer" class="block">
-  
-    
-         
-            <div class="body"><!-- TAG START 
-{ player: "Infoplease right rail player", owner: "Sandbox", for: "Sandbox" }
--->
-<div class="vdb_player vdb_58d980939efa8934dea19ed858ab315c869ea90e1faf3fec" id="58d980939efa8934dea19ed8"><script async="" type="text/javascript" src="//delivery.vidible.tv/jsonp/pid=58d980939efa8934dea19ed8/58ab315c869ea90e1faf3fec.js"></script></div>
-<!-- TAG END 
-{ date: 03/27/17 } 
---></div>
-      
-  </div>
-<div id="block-infopleasetools" class="block">
-  
-    
-         
-            <div class="body"><p><img alt="Infoplease Tools" src="/images/infotoolslogo.gif" /></p>
-
-<div class="col-sm-6">
-<p style="margin: 5px 0;"><a href="https://www.infoplease.com/video-archive">Video Library</a></p>
-
-<p style="margin: 5px 0;"><a href="/calculator">Calculator</a></p>
-
-<p style="margin: 5px 0;"><a href="/atlas/latitude-longitude">Place Finder</a></p>
-
-<p style="margin: 5px 0;"><a href="/periodictable">Periodic Table</a></p>
-
-<p style="margin: 5px 0;"><a href="/calendar">Perpetual Calendar</a></p>
-
-<p style="margin: 5px 0;"><a href="/node/83319">Homework Help</a></p>
-</div>
-
-<div class="col-sm-6">
-<p style="margin: 5px 0;"><a href="/spellcheck">Spelling Checker</a></p>
-
-<p style="margin: 5px 0;"><a href="/atlas/calculate-distance">Distance Calculator</a></p>
-
-<p style="margin: 5px 0;"><a href="/node/64201">Conversion Tool</a></p>
-
-<p style="margin: 5px 0;"><a href="/yearbyyear">Year by Year</a></p>
-
-<p style="margin: 5px 0;"><img alt="Factmonster Logo" class="factmonster" height="20" src="/images/ip_icon_factmonster.gif" style="padding-left:0;" width="22" /><a href="//www.factmonster.com/" title="Fact Monster">Fact Monster</a></p>
-</div>
-
-<div style="clear:both"> </div>
-</div>
-      
-  </div>
-<div id="block-ipmiddlewaread" class="block">
-  
-    
-         
-            <div class="body"><!-- /718/IP/middlepagetower -->
-<div id="div-gpt-ad-1481558147970-0">
-<script>
-<!--//--><![CDATA[// ><!--
-
-googletag.cmd.push(function() { googletag.display('div-gpt-ad-1481558147970-0'); });
-
-//--><!]]>
-</script></div></div>
-      
-  </div>
-<div id="block-infopleasesources" class="block">
-  
-    
-         
-            <div class="body"><h4>Infoplease Sources</h4>
-
-<ul class="list-unstyled"><li>
-	<h5><img src="/images/ip_play-icon.png" style="width: 22px;height: auto;margin: 0 5px 0 -4px;" /><a href="/video-archive">Video Library</a></h5>
-
-	<p>A large collection of informational and educational videos from animals and landmarks to language arts and history.</p>
-	</li>
-	<li>
-	<h5><a class="icon-hist" href="/node/167349">Almanacs </a></h5>
-
-	<p>A vast compendium of statistics and up-to-date facts and figures, on everything you need to know.</p>
-	</li>
-	<li>
-	<h5><a class="icon-dict" href="/dictionary">Dictionary </a></h5>
-
-	<p>An unabridged dictionary from aalii to zymurgy, including a pronunciation guide.</p>
-	</li>
-	<li>
-	<h5><a class="icon-atlas" href="/atlas">Atlas </a></h5>
-
-	<p>An atlas featuring maps and detailed profiles of all 193 countries and the 50 U.S. states.</p>
-	</li>
-	<li>
-	<h5><a class="icon-encyclopedia" href="/encyclopedia">Encyclopedia </a></h5>
-
-	<p>A current and comprehensive encyclopedia covering all the major branches of knowledge from astrophysics to Zimbabwe.</p>
-	</li>
-</ul></div>
-      
-  </div>
-<div id="block-ip3rdad" class="block">
-  
-    
-         
-            <div class="body"><!-- /718/IP/3rd ad tower -->
-<div id="div-gpt-ad-1489606341717-0">
-<script>
-<!--//--><![CDATA[// ><!--
-
-googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489606341717-0'); });
-
-//--><!]]>
-</script></div></div>
-      
-  </div>
-<div id="block-ip4thad" class="block">
-  
-    
-         
-            <div class="body"><!-- /718/IP/4th ad -->
-<div id="div-gpt-ad-1489606431392-0">
-<script>
-<!--//--><![CDATA[// ><!--
-
-googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489606431392-0'); });
-
-//--><!]]>
-</script></div></div>
-      
-  </div>
-
-
-        </div>
-        </aside>
-    </main>
-    <footer>
-            <nav role="navigation" aria-labelledby="block-footer-2-menu" id="block-footer-2">
-            
-  <h2 class="visually-hidden" id="block-footer-2-menu">Footer</h2>
-  
-
-        
-              <ul>
-              <li>
-        <a href="/" data-drupal-link-system-path="&lt;front&gt;">Popular Areas</a>
-                                <ul>
-              <li>
-        <a href="/thesaurus" data-drupal-link-system-path="node/80846">Thesaurus</a>
-              </li>
-          <li>
-        <a href="/dictionary" data-drupal-link-system-path="node/80845">Dictionary</a>
-              </li>
-          <li>
-        <a href="/encyclopedia" data-drupal-link-system-path="encyclopedia">Encyclopedia</a>
-              </li>
-          <li>
-        <a href="/us/us-states-maps-stats" data-drupal-link-system-path="node/80737">50 States</a>
-              </li>
-          <li>
-        <a href="/news-and-events-year-year" data-drupal-link-system-path="yearbyyear">Year-by-Year</a>
-              </li>
-          <li>
-        <a href="/countries" data-drupal-link-system-path="countries">Country Profiles</a>
-              </li>
-          <li>
-        <a href="/homework-help" data-drupal-link-system-path="node/83319">Homework Center</a>
-              </li>
-          <li>
-        <a href="https://www.infoplease.com/video-archive">Watch and Learn</a>
-              </li>
-        </ul>
-  
-              </li>
-          <li>
-        <a href="/" data-drupal-link-system-path="&lt;front&gt;">Infoplease Tools</a>
-                                <ul>
-              <li>
-        <a href="/calculator" data-drupal-link-system-path="node/509">Calculator</a>
-              </li>
-          <li>
-        <a href="/spelling-check" data-drupal-link-system-path="node/80855">Spelling Checker</a>
-              </li>
-          <li>
-        <a href="/atlas/calculate-distance" data-drupal-link-system-path="atlas/calculate-distance">Distance Calculator</a>
-              </li>
-          <li>
-        <a href="/periodictable" data-drupal-link-system-path="node/80858">Periodic Table</a>
-              </li>
-          <li>
-        <a href="/atlas/latitude-longitude" data-drupal-link-system-path="atlas/latitude-longitude">Place Finder</a>
-              </li>
-          <li>
-        <a href="/conversion-calculator" data-drupal-link-system-path="node/64201">Conversion Tool</a>
-              </li>
-          <li>
-        <a href="/calendar" data-drupal-link-system-path="calendar">Perpetual Calendar</a>
-              </li>
-          <li>
-        <a href="/citing-infoplease" data-drupal-link-system-path="node/167362">Cite</a>
-              </li>
-        </ul>
-  
-              </li>
-          <li>
-        <a href="/" data-drupal-link-system-path="&lt;front&gt;">FEN Learning</a>
-                                <ul>
-              <li>
-        <a href="http://www.funbrainjr.com/">Funbrain Jr. - Preschool &amp; Pre-K</a>
-              </li>
-          <li>
-        <a href="https://www.funbrain.com/">Funbrain - K-8 Games for Kids</a>
-              </li>
-          <li>
-        <a href="http://www.poptropica.com/">Poptropica - Virtual World for Kids</a>
-              </li>
-          <li>
-        <a href="https://www.familyeducation.com/">FamilyEducation - Parenting Advice</a>
-              </li>
-          <li>
-        <a href="https://www.teachervision.com/">TeacherVision - Teacher Resources</a>
-              </li>
-          <li>
-        <a href="https://www.factmonster.com">Fact Monster - Homework Help</a>
-              </li>
-        </ul>
-  
-              </li>
-        </ul>
-  
-
-
-  </nav>
-<div class="views-element-container block" id="block-views-block-footer-view-block-1">
-  
-    
-      <div><div class="js-view-dom-id-37595a21cf514ac12f941ef320d01075eb4d0b6455a366f3cebb5826b848bb89">
-  
-  
-  
-
-      <div class="view-header">
-      <p><a href="/aboutip.html"><strong>About Infoplease</strong></a>,<br />
-Part of <a href="http://www.fen.com">FEN Learning</a></p><nav role="navigation" aria-labelledby="block-footerlastcolumn-menu" id="block-footerlastcolumn">
-            
-  <h2 class="visually-hidden" id="block-footerlastcolumn-menu">Footer last column</h2>
-  
-
-        
-              <ul>
-              <li>
-        <a href="/infoplease-rss-feeds" data-drupal-link-system-path="node/436026">RSS</a>
-              </li>
-          <li>
-        <a href="https://sandboxnetworks.custhelp.com/app/ask/p/27">Contact</a>
-              </li>
-          <li>
-        <a href="/linking-information-please" data-drupal-link-system-path="node/167398">Link to Us</a>
-              </li>
-          <li>
-        <a href="/node/167396" data-drupal-link-system-path="node/167396">Advertise with Infoplease</a>
-              </li>
-          <li>
-        <a href="http://fen.com/resources/agreeDisclaim.html">Terms of Use*</a>
-              </li>
-          <li>
-        <a href="http://fen.com/resources/privacyStatement.html">Privacy**</a>
-              </li>
-          <li>
-        <a href="/sitemaps" data-drupal-link-system-path="node/167445">Site Map</a>
-              </li>
-          <li>
-        <a href="/partners">Partnerships</a>
-              </li>
-          <li>
-        <a href="http://www.fen.com/agreeDisclaim.html">Disclaimer</a>
-              </li>
-          <li>
-        <a href="https://www.surveymonkey.com/r/CMB2ZSS">Take Our Website Satisfaction Survey</a>
-              </li>
-        </ul>
-  
-
-
-  </nav>
-
-    </div>
-  
-  
-  
-
-      <div class="views-row">
-    
-  </div>
-
-  
-  
-
-  
-  
-
-      <div class="view-footer">
-      <div class="footer-below">
-<p><sup>*</sup> Updated 10/2015</p>
-<p><sup>**</sup> Updated 10/2015</p>
-</div>
-    </div>
-  
-  </div>
-</div>
-
-  </div>
-<div id="block-copyrights" class="block">
-  
-    
-         
-            <div class="body"><style type="text/css">
-<!--/*--><![CDATA[/* ><!--*/
-.list-unstyled li{display:inline-block;}
-
-/*--><!]]>*/
-</style><div class="container">
-<div class="row">
-<div class="col-sm-2">
-<aside class="footer-widget"><ul class="social list-unstyled" style="text-align:left;"><li><a href="https://www.facebook.com/InfoPleaseOfficial/"><img src="/images/ip17_social_facebook_icon.png" style="height:23px;width:auto;" /></a></li>
-	<li><a href="https://twitter.com/Info_Please"><img src="/images/ip17_social_twitter_icon.png" style="height:19px;width:auto;" /></a></li>
-	<li><a href="https://www.pinterest.com/infopleasecom"><img src="/images/ip17_social_pinterest_icon.png" style="height:23px;width:auto;" /></a></li>
-</ul></aside></div>
-
-<div class="col-sm-9">
-<p class="copyright-contents">© 2000–2017 Sandbox Networks, Inc., publishing as Infoplease</p>
-</div>
-</div>
-</div>
-</div>
-      
-  </div>
-<div id="block-ipoutofpageblock-2" class="block">
-  
-    
-         
-            <div class="body"><!-- /718/IP/outofpage -->
-<div id="div-gpt-ad-1481558598915-0">
-<script>
-<!--//--><![CDATA[// ><!--
-
-googletag.cmd.push(function() { googletag.display('div-gpt-ad-1481558598915-0'); });
-
-//--><!]]>
-</script></div></div>
-      
-  </div>
-
-
-    </footer>
-</div>
-    <div  class="hidden">
-            <nav role="navigation" aria-labelledby="block-footerlastcolumn-menu" id="block-footerlastcolumn">
-            
-  <h2 class="visually-hidden" id="block-footerlastcolumn-menu">Footer last column</h2>
-  
-
-        
-              <ul>
-              <li>
-        <a href="/infoplease-rss-feeds" data-drupal-link-system-path="node/436026">RSS</a>
-              </li>
-          <li>
-        <a href="https://sandboxnetworks.custhelp.com/app/ask/p/27">Contact</a>
-              </li>
-          <li>
-        <a href="/linking-information-please" data-drupal-link-system-path="node/167398">Link to Us</a>
-              </li>
-          <li>
-        <a href="/node/167396" data-drupal-link-system-path="node/167396">Advertise with Infoplease</a>
-              </li>
-          <li>
-        <a href="http://fen.com/resources/agreeDisclaim.html">Terms of Use*</a>
-              </li>
-          <li>
-        <a href="http://fen.com/resources/privacyStatement.html">Privacy**</a>
-              </li>
-          <li>
-        <a href="/sitemaps" data-drupal-link-system-path="node/167445">Site Map</a>
-              </li>
-          <li>
-        <a href="/partners">Partnerships</a>
-              </li>
-          <li>
-        <a href="http://www.fen.com/agreeDisclaim.html">Disclaimer</a>
-              </li>
-          <li>
-        <a href="https://www.surveymonkey.com/r/CMB2ZSS">Take Our Website Satisfaction Survey</a>
-              </li>
-        </ul>
-  
-
-
-  </nav>
-<div id="block-infolinks" class="block">
-  
-    
-         
-            <div class="body"><div class="block" id="block-infolinks">
-<div class="body"><script type="text/javascript">
-<!--//--><![CDATA[// ><!--
-
-<!--//--><![CDATA[// ><!--
-
-var infolinks_pid = 2950542;
-var infolinks_wsid = 0;
-
-//--><!]]]]><![CDATA[>
-
-//--><!]]>
-</script><script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script></div>
-</div>
-</div>
-      
-  </div>
-
-
-    </div>
-
-    
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"search\/apple tree","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"user":{"uid":0,"permissionsHash":"7477a9b249ff39cf8abeca80fd66ff3a59ad294d7441d512d6b8868fbf075d99"}}</script>
-<script src="/sites/infoplease.com/files/js/js_4BVxPIW5s74KWIQKGFw532GAiGyE-M_e5OuRdVd8OB8.js"></script>
-<script src="//s7.addthis.com/js/300/addthis_widget.js#username=bethrowen"></script>
-
-  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"fc5994cfb8","applicationID":"39068115,41957789","transactionName":"NgAGbRRTXRFUBUBQXg9KJVoSW1wMGiJGTEEACTh6CUBWPnMJRlRtJwoWVCRHWg5RA0YUDxMACl0DQGMOVAVRUV4NAQFLIF1BD3QFQFBeDw==","queueTime":0,"applicationTime":508,"atts":"GkcFG1xJTh8=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Search results</h1>
+									<div id="bodyContent" class="mw-body-content">
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text"><form id="search" method="get" action="/w/index.php"><div id="mw-search-top-table"><div class='oo-ui-layout oo-ui-fieldLayout oo-ui-fieldLayout-align-top oo-ui-actionFieldLayout'><div class='oo-ui-fieldLayout-body'><span class='oo-ui-fieldLayout-header'><label for='ooui-1' class='oo-ui-labelElement-label'></label></span><div class='oo-ui-fieldLayout-field'><div class='oo-ui-actionFieldLayout-input'><div id='searchText' aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-inputWidget oo-ui-iconElement oo-ui-textInputWidget oo-ui-textInputWidget-type-text oo-ui-textInputWidget-php mw-widget-titleInputWidget mw-widget-searchInputWidget' data-ooui='{"_":"mw.widgets.SearchInputWidget","pushPending":false,"performSearchOnClick":true,"dataLocation":"content","highlightFirst":false,"validateTitle":false,"name":"search","value":"apple tree","icon":"search"}'><input type='search' tabindex='0' aria-disabled='false' name='search' value='apple tree' id='ooui-1' class='oo-ui-inputWidget-input' /><span class='oo-ui-iconElement-icon oo-ui-icon-search'></span><span class='oo-ui-indicatorElement-indicator'></span></div></div><span class='oo-ui-actionFieldLayout-button'><span aria-disabled='false' class='oo-ui-widget oo-ui-widget-enabled oo-ui-flaggedElement-progressive oo-ui-flaggedElement-primary oo-ui-inputWidget oo-ui-buttonElement oo-ui-buttonElement-framed oo-ui-labelElement oo-ui-buttonInputWidget'><button type='submit' tabindex='0' aria-disabled='false' value='' class='oo-ui-inputWidget-input oo-ui-buttonElement-button'><span class='oo-ui-iconElement-icon oo-ui-image-invert'></span><span class='oo-ui-labelElement-label'>Search</span><span class='oo-ui-indicatorElement-indicator oo-ui-image-invert'></span></button></span></span></div></div></div><div class="results-info" data-mw-num-results-offset="0" data-mw-num-results-total="10261">Results <strong>1 - 20</strong> of <strong>10,261</strong></div><input type="hidden" value="Special:Search" name="title"/><input type="hidden" value="default" name="profile"/><input type="hidden" value="1" name="fulltext"/></div><div class='mw-search-visualclear'></div><div class='mw-search-profile-tabs'><div class='search-types'><ul><li class="current"><a href="/w/index.php?title=Special:Search&amp;profile=default&amp;search=apple+tree&amp;fulltext=1" title="Search in (Article)">Content pages</a></li><li class="normal"><a href="/w/index.php?title=Special:Search&amp;profile=images&amp;search=apple+tree&amp;fulltext=1" title="Search for files">Multimedia</a></li><li class="normal"><a href="/w/index.php?title=Special:Search&amp;profile=all&amp;search=apple+tree&amp;fulltext=1" title="Search all of content (including talk pages)">Everything</a></li><li class="normal"><a href="/w/index.php?title=Special:Search&amp;profile=advanced&amp;search=apple+tree&amp;fulltext=1" title="Search in custom namespaces">Advanced</a></li></ul></div><div style='clear:both'></div></div></form><div class='searchresults'><p class="mw-search-exists">
+<b>There is a page named "<a href="/wiki/Apple_tree" class="mw-redirect" title="Apple tree">Apple tree</a>" on Wikipedia</b></p>
+<ul class='mw-search-results'><li><div class='mw-search-result-heading'><a href="/wiki/Apple" title="Apple" data-serp-pos="0"><span class="searchmatch">Apple</span></a>    </div><div class='searchresult'>see <span class="searchmatch">Apple</span> Inc. For other uses, see <span class="searchmatch">Apple</span> (disambiguation). &quot;<span class="searchmatch">Apple</span> <span class="searchmatch">tree</span>&quot; redirects here. For other uses, see <span class="searchmatch">Apple</span> <span class="searchmatch">tree</span> (disambiguation). &quot;<span class="searchmatch">Apple</span> blossom&quot;</div> <div class='mw-search-result-data'>62 KB (6,925 words) - 19:56, 26 April 2017</div></li><li><div class='mw-search-result-heading'><a href="/wiki/The_Apple_Tree" title="The Apple Tree" data-serp-pos="1">The <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span></a>    </div><div class='searchresult'>For the Daphne du Maurier short story collection, see The <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> (anthology). The <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> is a series of three musical playlets with music by Jerry</div> <div class='mw-search-result-data'>11 KB (1,536 words) - 07:18, 12 April 2017</div></li><li><div class='mw-search-result-heading'><a href="/wiki/Apple_tree_(disambiguation)" title="Apple tree (disambiguation)" data-serp-pos="2"><span class="searchmatch">Apple</span> <span class="searchmatch">tree</span> (disambiguation)</a>    </div><div class='searchresult'>An <span class="searchmatch">apple</span> <span class="searchmatch">tree</span> is a <span class="searchmatch">tree</span> best known for its fruit, the <span class="searchmatch">apple</span>. <span class="searchmatch">Apple</span> <span class="searchmatch">tree</span>, The <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span>, Appletree and similar may also refer to: <span class="searchmatch">Apple</span><span class="searchmatch">Tree</span>, an indie rock</div> <div class='mw-search-result-data'>1 KB (175 words) - 23:13, 12 April 2017</div></li><li><div class='mw-search-result-heading'><a href="/wiki/Apple_Tree_Creek,_Queensland" title="Apple Tree Creek, Queensland" data-serp-pos="3"><span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> Creek, Queensland</a>    </div><div class='searchresult'><span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> Creek is a town and a locality in the Bundaberg Region local government area in central Queensland, Australia. It is located 6 km north-west</div> <div class='mw-search-result-data'>3 KB (229 words) - 19:45, 28 April 2017</div></li><li><div class='mw-search-result-heading'><a href="/wiki/Jesus_Christ_the_Apple_Tree" title="Jesus Christ the Apple Tree" data-serp-pos="4">Jesus Christ the <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span></a>    </div><div class='searchresult'>Jesus Christ the <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> (also known as <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> and, in its early publications, as Christ Compared to an <span class="searchmatch">Apple</span>-<span class="searchmatch">tree</span>) is a poem, presumably intended</div> <div class='mw-search-result-data'>4 KB (450 words) - 10:52, 18 February 2017</div></li><li><div class='mw-search-result-heading'><a href="/wiki/Don%27t_Sit_Under_the_Apple_Tree_(with_Anyone_Else_but_Me)" title="Don't Sit Under the Apple Tree (with Anyone Else but Me)" data-serp-pos="5">Don't Sit Under the <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> (with Anyone Else but Me)</a>    </div><div class='searchresult'>&quot;Don't Sit Under the <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> (With Anyone Else but Me)&quot; is a popular song that was made famous by Glenn Miller and by the Andrews Sisters during World</div> <div class='mw-search-result-data'>6 KB (745 words) - 13:03, 5 April 2017</div></li><li><div class='mw-search-result-heading'><a href="/wiki/Bramley_apple" title="Bramley apple" data-serp-pos="6">Bramley <span class="searchmatch">apple</span></a>    </div><div class='searchresult'>dessert <span class="searchmatch">apple</span>. They are flat with a vivid green skin which becomes red on the side which receives direct sunlight. The <span class="searchmatch">tree</span> is resistant to <span class="searchmatch">apple</span> scab and</div> <div class='mw-search-result-data'>9 KB (1,081 words) - 10:10, 16 April 2017</div></li><li><div class='mw-search-result-heading'><a href="/wiki/The_Space_Ship_Under_the_Apple_Tree" title="The Space Ship Under the Apple Tree" data-serp-pos="7">The Space Ship Under the <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span></a>    </div><div class='searchresult'>The Space Ship Under the <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> is a children's science fiction book series by Louis Slobodkin, and also the name of the first book in the series.</div> <div class='mw-search-result-data'>2 KB (135 words) - 14:09, 27 January 2017</div></li><li><div class='mw-search-result-heading'><a href="/wiki/Rose_apple" title="Rose apple" data-serp-pos="8">Rose <span class="searchmatch">apple</span></a>    </div><div class='searchresult'>Rose <span class="searchmatch">apple</span> may refer to: Angophora costata, a common woodland and forest <span class="searchmatch">tree</span> of Eastern Australia Various Syzygium species, especially the following:</div> <div class='mw-search-result-data'>649 bytes (55 words) - 04:04, 18 December 2016</div></li><li><div class='mw-search-result-heading'><a href="/wiki/Apple_scab" title="Apple scab" data-serp-pos="9"><span class="searchmatch">Apple</span> scab</a>    </div><div class='searchresult'>Not to be confused with Applecrab. <span class="searchmatch">Apple</span> scab is a disease of Malus <span class="searchmatch">trees</span>, such as <span class="searchmatch">apple</span> <span class="searchmatch">trees</span>, caused by the ascomycete fungus Venturia inaequalis. The</div> <div class='mw-search-result-data'>6 KB (702 words) - 13:13, 2 February 2017</div></li><li><div class='mw-search-result-heading'><a href="/wiki/Flamenco_(apple)" title="Flamenco (apple)" data-serp-pos="10">Flamenco (<span class="searchmatch">apple</span>)</a>    </div><div class='searchresult'>cultivar of domesticated <span class="searchmatch">apple</span> that bears <span class="searchmatch">apples</span> good for eating fresh, and is grown for its unusual ornamental properties. The <span class="searchmatch">tree</span> grows in a straight up</div> <div class='mw-search-result-data'>2 KB (189 words) - 20:48, 31 October 2015</div></li><li><div class='mw-search-result-heading'><a href="/wiki/Malus" title="Malus" data-serp-pos="11">Malus</a> <span class='searchalttitle'>(redirect from <a href="/wiki/Crab_apple_tree" class="mw-redirect" title="Crab apple tree">Crab <span class="searchmatch">apple</span> <span class="searchmatch">tree</span></a>)</span>   </div><div class='searchresult'>&quot;Crabapple&quot; and &quot;Wild <span class="searchmatch">apple</span>&quot; redirect here. For the cultivated fruit, see <span class="searchmatch">Apple</span>. For the unrelated Australian <span class="searchmatch">tree</span>, see Pouteria eerwah. For other uses</div> <div class='mw-search-result-data'>12 KB (1,212 words) - 09:27, 23 February 2017</div></li><li><div class='mw-search-result-heading'><a href="/wiki/Fruit_tree_propagation" title="Fruit tree propagation" data-serp-pos="12">Fruit <span class="searchmatch">tree</span> propagation</a>    </div><div class='searchresult'>parent <span class="searchmatch">tree</span> which is then grown on to produce a new plant or &quot;clone&quot; of the original. In effect this means that the original Bramley <span class="searchmatch">apple</span> <span class="searchmatch">tree</span>, for example</div> <div class='mw-search-result-data'>29 KB (3,927 words) - 01:48, 6 January 2017</div></li><li><div class='mw-search-result-heading'><a href="/wiki/Apple_Wassail" title="Apple Wassail" data-serp-pos="13"><span class="searchmatch">Apple</span> Wassail</a>    </div><div class='searchresult'>from Somerset reflecting this custom tells of the &quot;<span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> Man&quot;, the spirit of the oldest <span class="searchmatch">apple</span> <span class="searchmatch">tree</span> in an orchard, and in whom the fertility of the orchard</div> <div class='mw-search-result-data'>4 KB (543 words) - 15:28, 16 October 2016</div></li><li><div class='mw-search-result-heading'><a href="/wiki/Apple_Tree_(horse)" title="Apple Tree (horse)" data-serp-pos="14"><span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> (horse)</a>    </div><div class='searchresult'><span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> (foaled 6 March 1989) is a French Thoroughbred racehorse and sire. During a racing career which lasted from September 1991 until October 1995</div> <div class='mw-search-result-data'>14 KB (1,531 words) - 18:00, 13 June 2016</div></li><li><div class='mw-search-result-heading'><a href="/wiki/The_White_Apple_Tree" title="The White Apple Tree" data-serp-pos="15">The White <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span></a>    </div><div class='searchresult'>White <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> (Lithuanian: Baltoji obelis) is a painting by the Lithuanian artist Antanas Samuolis from 1932.  The picture is painted in oil on canvas</div> <div class='mw-search-result-data'>4 KB (221 words) - 07:43, 30 November 2016</div></li><li><div class='mw-search-result-heading'><a href="/wiki/McIntosh_(apple)" title="McIntosh (apple)" data-serp-pos="16">McIntosh (<span class="searchmatch">apple</span>)</a>    </div><div class='searchresult'>&quot;Granny's <span class="searchmatch">apple</span>&quot;, as they often saw their grandmother taking care of the <span class="searchmatch">tree</span> in the orchard. McIntosh was selling seedlings from the <span class="searchmatch">tree</span> by 1820, but</div> <div class='mw-search-result-data'>18 KB (2,016 words) - 21:00, 24 April 2017</div></li><li><div class='mw-search-result-heading'><a href="/wiki/The_Birds_and_Other_Stories" title="The Birds and Other Stories" data-serp-pos="17">The Birds and Other Stories</a> <span class='searchalttitle'>(redirect from <a href="/wiki/The_Apple_Tree_(anthology)" class="mw-redirect" title="The Apple Tree (anthology)">The <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> (anthology)</a>)</span>   </div><div class='searchresult'>&quot;The <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> (anthology)&quot; redirects here. For the musical, see The <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span>. For the song, see The <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> (song). The Birds and Other Stories</div> <div class='mw-search-result-data'>5 KB (656 words) - 07:33, 16 May 2016</div></li><li><div class='mw-search-result-heading'><a href="/wiki/Apple_Tree_Creek_War_Memorial" title="Apple Tree Creek War Memorial" data-serp-pos="18"><span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> Creek War Memorial</a>    </div><div class='searchresult'><span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> Creek War Memorial is a heritage-listed memorial at Bruce Highway, <span class="searchmatch">Apple</span> <span class="searchmatch">Tree</span> Creek, Bundaberg Region, Queensland, Australia. It was designed</div> <div class='mw-search-result-data'>13 KB (1,687 words) - 07:35, 27 January 2017</div></li><li><div class='mw-search-result-heading'><a href="/wiki/Civni_apple" title="Civni apple" data-serp-pos="19">Civni <span class="searchmatch">apple</span></a>    </div><div class='searchresult'>&quot;Patent USPP14177 <span class="searchmatch">Apple</span> <span class="searchmatch">tree</span> named &quot;Civni&quot;&quot;.   &quot;Collett signs up for Rubens&quot;. Freshinfo. 8 March 2007. Retrieved 2009-01-13.   &quot;Rubens <span class="searchmatch">apple</span>&quot;. OrangePippin</div> <div class='mw-search-result-data'>2 KB (220 words) - 10:33, 15 November 2015</div></li></ul><div class="mw-search-visualclear"></div><p class='mw-search-pager-bottom'>View (previous 20 |  <a href="/w/index.php?title=Special:Search&amp;limit=20&amp;offset=20&amp;profile=default&amp;search=apple+tree" title="Next 20 results" class="mw-nextlink">next 20</a>) (<a href="/w/index.php?title=Special:Search&amp;limit=20&amp;offset=0&amp;profile=default&amp;search=apple+tree" title="Show 20 results per page" class="mw-numlink">20</a> | <a href="/w/index.php?title=Special:Search&amp;limit=50&amp;offset=0&amp;profile=default&amp;search=apple+tree" title="Show 50 results per page" class="mw-numlink">50</a> | <a href="/w/index.php?title=Special:Search&amp;limit=100&amp;offset=0&amp;profile=default&amp;search=apple+tree" title="Show 100 results per page" class="mw-numlink">100</a> | <a href="/w/index.php?title=Special:Search&amp;limit=250&amp;offset=0&amp;profile=default&amp;search=apple+tree" title="Show 250 results per page" class="mw-numlink">250</a> | <a href="/w/index.php?title=Special:Search&amp;limit=500&amp;offset=0&amp;profile=default&amp;search=apple+tree" title="Show 500 results per page" class="mw-numlink">500</a>)</p>
+</div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/wiki/Special:Search">https://en.wikipedia.org/wiki/Special:Search</a>"					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Special%3ASearch&amp;returntoquery=search%3Dapple%2Btree%26profile%3Ddefault%26fulltext%3D1" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Special%3ASearch&amp;returntoquery=search%3Dapple%2Btree%26profile%3Ddefault%26fulltext%3D1" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-special" class="selected"><span><a href="/w/index.php?search=apple+tree&amp;title=Special%3ASearch&amp;profile=default&amp;fulltext=1"  title="This is a special page which you cannot edit">Special page</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs emptyPortlet" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search Wikipedia" value="apple tree" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
+			<h3 id='p-interaction-label'>Interaction</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/w/index.php?title=Special:Search&amp;search=apple+tree&amp;profile=default&amp;fulltext=1&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+			<h3 id='p-lang-label'>Languages</h3>
+
+			<div class="body">
+									<ul>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://wikimediafoundation.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+											<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Special:Search&amp;search=apple+tree&amp;profile=default&amp;fulltext=1&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":160,"wgHostname":"mw1250"});});</script>
+	</body>
 </html>
